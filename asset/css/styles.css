@@ -6,6 +6,10 @@
   --primary-color: #0f1b4c;
 }
 
+html, body{
+  scroll-behavior: smooth;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -63,7 +67,8 @@ a {
   /* display: flex;
   flex-direction: column; */
   /* height: 736px; */
-  height: 100vh;
+  height: calc(736px - 90px);
+  /* height: 100vh; */
   background-color: #e6f0ff;
 }
 
