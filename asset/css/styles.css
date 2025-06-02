@@ -64,8 +64,9 @@ a {
 
 .hero-wrap {
   position: relative;
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   /* height: 736px; */
   height: calc(736px - 90px);
   /* height: 100vh; */
@@ -117,15 +118,11 @@ a {
 
 /* Hero */
 
-.hero {
-  padding-top: 130px;
-}
-
-.hero .info {
+.hero-wrap .info {
   width: 51%;
 }
 
-.hero .sup-title {
+.hero-wrap .sup-title {
   color: #687690;
   font-size: 1.8rem;
   font-weight: 500;
@@ -133,7 +130,7 @@ a {
   letter-spacing: 0.01rem;
 }
 
-.hero .title {
+.hero-wrap .title {
   margin-top: 8px;
   color: #000336;
   font-size: 6rem;
@@ -141,7 +138,7 @@ a {
   line-height: 1.19;
 }
 
-.hero .desc {
+.hero-wrap .desc {
   color: #5a6473;
   font-size: 1.8rem;
   font-weight: 400;
